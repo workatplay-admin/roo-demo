@@ -1,0 +1,30 @@
+# GitHub Pages configuration for Workshop Landing Page
+title: "Agentic AI Fundamentals for Product Managers"
+description: "Workshop registration page for learning agentic AI development using low-code/no-code tools"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - tests/
+  - node_modules/
+  - vendor/
+
+# Include files that start with underscores
+include:
+  - _*
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# SEO settings
+url: "https://workatplay-admin.github.io"
+baseurl: "/roo-demo"
+
+# Social media and contact
+email: info@agenticai-workshop.com
